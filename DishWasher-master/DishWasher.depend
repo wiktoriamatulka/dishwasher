@@ -1,0 +1,96 @@
+# depslib dependency file v1.0
+1562676402 source:d:\projects\dishwasher\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<unistd.h>
+	"Program.h"
+	"ColdWaterProgram.h"
+	"QuickProgram.h"
+	"SlowProgram.h"
+	"ProgramsLoader.h"
+	"DishWasher.h"
+
+1562671713 d:\projects\dishwasher\program.h
+	<string>
+
+1562668751 source:d:\projects\dishwasher\program.cpp
+	"Program.h"
+
+1562669468 source:d:\projects\dishwasher\coldwaterprogram.cpp
+	<iostream>
+	<unistd.h>
+	"ColdWaterProgram.h"
+
+1562671686 d:\projects\dishwasher\coldwaterprogram.h
+	"Program.h"
+
+1562670021 source:d:\projects\dishwasher\quickprogram.cpp
+	<iostream>
+	<unistd.h>
+	"QuickProgram.h"
+
+1562671704 d:\projects\dishwasher\quickprogram.h
+	"Program.h"
+
+1562669914 d:\projects\dishwasher\slowprogram.h
+	<string>
+	"Program.h"
+
+1562671686 source:d:\projects\dishwasher\slowprogram.cpp
+	<iostream>
+	<unistd.h>
+	"SlowProgram.h"
+
+1562676947 source:d:\projects\dishwasher\programsloader.cpp
+	<list>
+	<sstream>
+	<stdio.h>
+	<fstream>
+	<string>
+	<iostream>
+	"ProgramsLoader.h"
+	"QuickProgram.h"
+	"SlowProgram.h"
+	"ColdWaterProgram.h"
+	"EkoProgram.h"
+
+1562673432 d:\projects\dishwasher\programsloader.h
+	<vector>
+	<string>
+	"Program.h"
+
+1562677539 source:d:\projects\dishwasher\dishwasher.cpp
+	"DishWasher.h"
+	"ProgramsLoader.h"
+	"ConsoleView.h"
+
+1562675262 d:\projects\dishwasher\dishwasher.h
+	<vector>
+	"Program.h"
+	"View.h"
+
+1562677466 d:\projects\dishwasher\view.h
+	<vector>
+	"Program.h"
+
+1562677456 d:\projects\dishwasher\consoleview.h
+	<vector>
+	"Program.h"
+	"View.h"
+
+1562677575 source:d:\projects\dishwasher\consoleview.cpp
+	<vector>
+	<iostream>
+	"ConsoleView.h"
+	"Program.h"
+
+1562676963 source:d:\projects\dishwasher\ekoprogram.cpp
+	<iostream>
+	<unistd.h>
+	"EkoProgram.h"
+
+1562676926 d:\projects\dishwasher\ekoprogram.h
+	<string>
+	"Program.h"
+
